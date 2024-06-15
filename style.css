@@ -16,6 +16,8 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 header nav {
@@ -80,16 +82,16 @@ header .logo {
 button {
     cursor: pointer;
     box-shadow: 2px 4px rgba(0, 0, 0, 0.2);;
+    border: 2px solid #1F2937;
+    border-radius: 10px;
+    padding: 8px 32px;
+    font-size: 1rem;
 }
 
 header button {
-    font-size: 1rem;
     margin-top: 16px;
-    padding: 8px 32px;
     background-color: #3882F6;
-    border-radius: 10px;
     color: #F9FAF8;
-    border: 2px solid #1F2937;
 }
 
 header .container .image {
@@ -105,7 +107,7 @@ header .container .image {
 /* everything above this line is header or the wider structure of the layout*/
 
 
-/* Everthing below this relates to .content-1 */
+/* Everthing below this line relates to .content-1 */
 
 .content-1 {
     padding: 32px 300px 52px 300px;
@@ -149,9 +151,9 @@ header .container .image {
 }
 
 
-/* Everything above this relates to .content-1 */
+/* Everything above this line relates to .content-1 */
 
-/* Everything below this relates to .content-2 */
+/* Everything below this line relates to .content-2 */
 
 .content-2 {
     background-color: #E5E7EB;
@@ -177,10 +179,58 @@ header .container .image {
     font-size: 1.2rem;
 }
 
-/* Everything above this relates to .conten-2 */
+/* Everything above this line relates to .conten-2 */
 
-/* Everything below this relates to .content-3 */
+/* Everything below this line relates to .content-3 */
+
+.content-3 {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.content-3 .container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.content-3 button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    height: 40px;
+}
+
+.content-3 .title {
+    color: #F9FAF8;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.content-3 .text {
+    color: #E5E7EB;
+}
+/* Everything above this line relates to .content-3 */
+
+/* Everything below this line relates to the footer */
+
+footer {
+    padding: 32px 0px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+footer .container {
+    color: #F9FAF8;
+    font-size: 1rem;
+}
 
 
-
-/* Everything above this relates to .content-3 */
+/* Everything aboe this line relates to the footer */
