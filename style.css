@@ -246,3 +246,13 @@ footer .container {
 
 
 /* Everything aboe this line relates to the footer */
+
+/* Removing margin around .container in header at 800px */
+
+@media(max-width: 800px) {
+    header .container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
