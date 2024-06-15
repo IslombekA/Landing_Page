@@ -14,12 +14,14 @@ html {
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     height: 100vh;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 ul {
@@ -33,6 +35,7 @@ header .container {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    gap: 100px;
     align-items: center;
 }
 
@@ -55,6 +58,17 @@ header nav a {
 
 header {
     background-color: #1F2937;
+    padding-top: 16px;
+    padding-bottom: 50px;
+}
+
+header,
+.content-1,
+.content-2,
+.content-3,
+footer {
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 a {
@@ -73,6 +87,7 @@ header nav .title {
 
 button {
     cursor: pointer;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.2);;
 }
 
 .button-1 button {
@@ -80,6 +95,31 @@ button {
     margin-top: 16px;
     padding: 8px 32px;
     background-color: #3882F6;
-    border-radius: 8px;
+    border-radius: 10px;
     color: #F9FAF8;
+    border: 2px solid #1F2937;
 }
+
+header .container .image {
+    background-color: gray;
+    height: 200px;
+    width: 455px;
+    flex-grow: .25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+}
+
+/* everything above this line is header or the wider structure of the layout*/
+
+
+/* Everthing below this relates to .content-1 */
+
+
+
+
+
+
+
+/* Everything above this relates to .content-1 */
