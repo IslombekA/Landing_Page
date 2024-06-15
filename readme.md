@@ -11,7 +11,7 @@ and here
 
 ## Demo
 
-Check Issues
+https://github.com/IslombekA/Landing_Page/assets/168467809/8421cbef-dd41-47f7-ba78-4d7e62a50ebf
 
 # Original Work
 
