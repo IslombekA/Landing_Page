@@ -3,6 +3,16 @@
     src: url(fonts/Roboto-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'roboto-bold';
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-italics';
+    src: url(fonts/Roboto-Italic.ttf);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -42,9 +52,9 @@ header .container {
 }
 
 header .title {
+    font-family: 'roboto-bold', sans-serif;
     font-size: 3rem;
     color: #F9FAF8;
-    font-weight: bold;
 }
 
 header .info,
@@ -75,7 +85,7 @@ li {
 header .logo {
     font-size: 1.5rem;
     color: #F9FAF8;
-    font-weight: 900;
+    font-family: 'roboto-bold', sans-serif;
     margin-bottom: 3px;
 }
 
@@ -120,9 +130,10 @@ header .container .image {
 }
 
 .content-1 .title {
+    font-family: 'roboto-bold', sans-serif;
     text-align: center;
     color: #1F2937;
-    font-size: 2.1rem;
+    font-size: 2.2rem;
     font-weight: 900;
     margin-bottom: 48px;
 }
@@ -164,6 +175,7 @@ header .container .image {
 }
 
 .quote {
+    font-family: 'roboto-italics';
     max-width: 725px;
     font-size: 2rem;
 }
@@ -210,7 +222,7 @@ header .container .image {
 .content-3 .title {
     color: #F9FAF8;
     font-size: 1.2rem;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .content-3 .text {
